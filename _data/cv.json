@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Sitong Zhou",
+    "email": "sitongz@uw.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://sitongz.github.io",
+    "summary": "PhD Candidate in Electrical & Computer Engineering at the University of Washington. Research in NLP and clinical text mining.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Seattle",
       "countryCode": "US",
-      "region": ""
+      "region": "WA"
     },
     "profiles": [
       {
@@ -19,45 +19,69 @@
         "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "sz2629",
+        "url": "https://github.com/sz2629"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Apple, Inc.",
+      "position": "Research Intern, Machine Intelligence",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": ""
+    },
+    {
+      "company": "University of Washington",
+      "position": "Research Assistant / Teaching Assistant",
+      "startDate": "2019",
+      "endDate": "present",
+      "summary": ""
+    },
+    {
+      "company": "Microsoft (Search, Assistant and Intelligence & Microsoft Research)",
+      "position": "Research Intern",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": ""
+    },
+    {
+      "company": "Graphen Inc",
+      "position": "Data Scientist",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": ""
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "University of Washington",
+      "area": "Electrical & Computer Engineering",
+      "studyType": "PhD",
+      "startDate": "2019-09",
+      "endDate": "2026-03",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Columbia University",
+      "area": "Data Science",
+      "studyType": "MS",
+      "startDate": "2016-09",
+      "endDate": "2017-12",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Hong Kong University of Science and Technology (HKUST)",
+      "area": "Mathematics & Economics",
+      "studyType": "BS",
+      "startDate": "2012-09",
+      "endDate": "2016-05",
       "gpa": null,
-      "courses": []
+      "courses": ["Exchange at École Polytechnique Fédérale de Lausanne (EPFL)"]
     }
   ],
   "skills": [],
@@ -66,87 +90,85 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Extracting Clinical Information From Unstructured EHRs Using Language Models, and Its Role in Disease Prediction",
+      "publisher": "University of Washington Dissertation",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Zhou, S."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "RadTimeline: Timeline Summarization for Longitudinal Radiological Lung Findings",
+      "publisher": "LREC 2026",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Zhou, S., Ostendorf, M., Yetisgen, M."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Traj-CoA: Patient Trajectory Modeling via Chain of Agents for Lung Cancer Risk Prediction",
+      "publisher": "NeurIPS 2025 GenAI4Health Workshop",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Zeng, S., Fu, Y., Zhou, S., Yu, Z., Liu, L. J., Wen, J., Thompson, M., Etzioni, R., Yetisgen, M."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "HuskyScribe at MEDIQA-Sum 2023: Summarizing Clinical Dialogues with Transformers",
+      "publisher": "CLEF 2023",
+      "releaseDate": "2023",
+      "website": "",
+      "summary": "Han, B., Zhu, H., Zhou, S., Ahmed, S., Rahman, M., Xia, F., Lybarger, K."
+    },
+    {
+      "name": "Building Blocks for Complex Tasks: Robust Generative Event Extraction for Radiology Reports Under Domain Shifts",
+      "publisher": "ClinicalNLP workshop at ACL 2023 (Oral Presentation)",
+      "releaseDate": "2023",
+      "website": "",
+      "summary": "Zhou, S., Yetisgen, M., Ostendorf, M."
+    },
+    {
+      "name": "Generalizing Through Forgetting: Domain Generalization for Symptom Event Extraction in Clinical Notes",
+      "publisher": "AMIA 2023 (Oral Presentation)",
+      "releaseDate": "2023",
+      "website": "",
+      "summary": "Zhou, S., Lybarger, K., Yetisgen, M., Ostendorf, M."
+    },
+    {
+      "name": "A Corpus of Radiology Reports from Multiple Imaging Modalities with Fine-Grained Event-Based Annotations",
+      "publisher": "AMIA 2022",
+      "releaseDate": "2022",
+      "website": "",
+      "summary": "Lybarger, K., Park, N., Zhou, S., Damani, A., Brennan, A., Gill, J., Dorvall, N."
+    },
+    {
+      "name": "A Transfer Learning Method for Speech Emotion Recognition from Automatic Speech Recognition",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2020",
+      "website": "",
+      "summary": "Zhou, S., Beigi, H."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "ECE 418: Network Security and Cryptography",
+      "institution": "University of Washington, ECE",
+      "date": "2025-09-01",
+      "role": "Teaching Assistant",
+      "description": "Fall 2025"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "ECE 242: Signal Processing",
+      "institution": "University of Washington, ECE",
+      "date": "2024-01-01",
+      "role": "Teaching Assistant",
+      "description": "2024, 2025"
+    },
+    {
+      "course": "ECE 511: Machine Learning",
+      "institution": "University of Washington, ECE",
+      "date": "2021-01-01",
+      "role": "Teaching Assistant",
+      "description": "Winter 2021"
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }
