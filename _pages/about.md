@@ -9,8 +9,7 @@ redirect_from:
 
 I am a PhD candidate in the [Electrical & Computer Engineering department](https://www.ece.uw.edu/) at the University of Washington, advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) and [Prof. Meliha Yetisgen](https://faculty.washington.edu/melihay/). My research focuses on natural language processing (NLP) applied to clinical text, including information extraction from electronic health records, clinical timeline summarization, and disease prediction.
 
-
-Clinical NLP, information extraction from unstructured EHRs, disease prediction, longitudinal patient modeling, and large language models applied to healthcare.
+**Research Interests:** Clinical NLP, information extraction from unstructured EHRs, disease prediction, longitudinal patient modeling, and large language models applied to healthcare.
 
 
 ## Publications 
