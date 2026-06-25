@@ -23,7 +23,7 @@ repository               : "sz2629/sitongz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "myphoto.jpg"
   name             : "Sitong Zhou"
   pronouns         : "she/her"
   bio              : "PhD Candidate, ECE, University of Washington. NLP & Clinical NLP researcher."
