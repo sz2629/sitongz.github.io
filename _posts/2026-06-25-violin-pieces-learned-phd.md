@@ -2,13 +2,9 @@
 title: 'Violin Pieces Learned During PhD'
 date: 2026-06-25
 permalink: /posts/2026/06/violin-pieces-phd/
-tags:
-  - music
-  - violin
-  - personal
 ---
 
-A running list of violin pieces I learned throughout my PhD.
+violin pieces 
 
 - Bach Concerto for 2 Violins in D minor, BWV 1043
 - Violin Concerto in A Minor RV 356
