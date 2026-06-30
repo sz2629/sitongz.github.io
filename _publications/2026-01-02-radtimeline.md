@@ -7,6 +7,6 @@ excerpt: 'Timeline summarization for longitudinal radiological lung findings.'
 date: 2026-01-02
 venue: 'LREC 2026'
 paperurl: ''
-authors: '~~Sitong Zhou~~, Mari Ostendorf, Meliha Yetisgen.'
+authors: '<u>Sitong Zhou</u>, Mari Ostendorf, Meliha Yetisgen.'
 citation: 'Zhou, S., Ostendorf, M., Yetisgen, M. (2026). &quot;RadTimeline: Timeline Summarization for Longitudinal Radiological Lung Findings.&quot; <i>LREC 2026</i>.'
 ---
