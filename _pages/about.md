@@ -12,7 +12,7 @@ I am a PhD candidate in the [Electrical & Computer Engineering department](https
 **Research Interests:** Clinical NLP, information extraction from unstructured EHRs, disease prediction, longitudinal patient modeling, and large language models applied to healthcare.
 
 
-## Publications 
+## Publications
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -20,22 +20,13 @@ I am a PhD candidate in the [Electrical & Computer Engineering department](https
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h3>{{ category[1].title }}</h3><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="publications-list">
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_pubs %}
+  <p class="pub-entry">
+    <strong>{% if post.paperurl and post.paperurl != '' %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</strong><br>
+    {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}<br>
+    {{ post.venue }}.
+  </p>
+{% endfor %}
+</div>
