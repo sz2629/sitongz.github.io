@@ -7,6 +7,6 @@ excerpt: 'Robust generative event extraction for radiology reports under domain 
 date: 2023-07-01
 venue: 'ClinicalNLP Workshop at ACL 2023'
 paperurl: ''
-authors: '~~Sitong Zhou~~, Meliha Yetisgen, Mari Ostendorf.'
+authors: '<u>Sitong Zhou</u>, Meliha Yetisgen, Mari Ostendorf.'
 citation: 'Zhou, S., Yetisgen, M., Ostendorf, M. (2023). &quot;Building Blocks for Complex Tasks: Robust Generative Event Extraction for Radiology Reports under Domain Shifts.&quot; <i>ClinicalNLP Workshop at ACL 2023</i>. (Oral Presentation)'
 ---
