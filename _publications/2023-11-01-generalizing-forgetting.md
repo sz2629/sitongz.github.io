@@ -7,5 +7,6 @@ excerpt: 'Domain generalization for symptom event extraction in clinical notes. 
 date: 2023-11-01
 venue: 'AMIA 2023'
 paperurl: ''
+authors: '~~Sitong Zhou~~, Kevin Lybarger, Meliha Yetisgen, Mari Ostendorf.'
 citation: 'Zhou, S., Lybarger, K., Yetisgen, M., Ostendorf, M. (2023). &quot;Generalizing Through Forgetting: Domain Generalization for Symptom Event Extraction in Clinical Notes.&quot; <i>AMIA 2023</i>. (Oral Presentation)'
 ---
