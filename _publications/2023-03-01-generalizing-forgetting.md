@@ -1,5 +1,5 @@
 ---
-title: "Generalizing Through Forgetting: Domain Generalization for Symptom Event Extraction in Clinical Notes"
+title: Generalizing through Forgetting - Domain Generalization for Symptom Event Extraction in Clinical Notes
 collection: publications
 category: conferences
 permalink: /publication/2023-03-01-generalizing-forgetting

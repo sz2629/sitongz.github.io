@@ -1,5 +1,5 @@
 ---
-title: "A Corpus of Radiology Reports from Multiple Imaging Modalities with Fine-Grained Event-Based Annotations"
+title: "A Corpus of Radiology Reports from Multiple Imaging Modalities with Fine-grained Event-based Annotations"
 collection: publications
 category: conferences
 permalink: /publication/2022-11-01-corpus-radiology

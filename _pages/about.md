@@ -7,26 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in the [Electrical & Computer Engineering department](https://www.ece.uw.edu/) at the University of Washington, advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) and [Prof. Meliha Yetisgen](https://faculty.washington.edu/melihay/). My research focuses on natural language processing (NLP) applied to clinical text, including information extraction from electronic health records, clinical timeline summarization, and disease prediction.
-
-**Research Interests:** Clinical NLP, information extraction from unstructured EHRs, disease prediction, longitudinal patient modeling, and large language models applied to healthcare.
-
+I recently completed my PhD in [Electrical & Computer Engineering department](https://www.ece.uw.edu/) at the University of Washington, honored to be advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) and [Prof. Meliha Yetisgen](https://faculty.washington.edu/melihay/). 
+I build language model applications for understanding and using clinical texts. My thesis focuses on building **robust** and **trustworthy** tools to **extract clinical information** and on using signals from unstructured EHRs for **disease prediction**. 
+I'm particularly fascinated by the longitudinal nature of EHRs, and have worked on **longitudinal EHR summarization** and using patients' longitudinal history to  future **predict clinical outcomes**.
 
 ## Publications
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+
 
 {% include base_path %}
 
-<div class="publications-list">
-{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-{% for post in sorted_pubs %}
-  <p class="pub-entry">
-    <strong>{% if post.paperurl and post.paperurl != '' %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</strong><br>
-    {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}<br>
-    {{ post.venue }}.
-  </p>
-{% endfor %}
-</div>
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %} {% for post in sorted_pubs %}
+
+**{% if post.paperurl and post.paperurl != '' %}[{{ post.title }}]({{ post.paperurl }}){% else %}{{ post.title }}{% endif %}**  
+{% if post.authors %}{{ post.authors | markdownify | remove: '
+
+' | remove: '
+
+' | strip }}{% endif %}  
+{{ post.venue }}.
+
+
+
+ {% endfor %}
