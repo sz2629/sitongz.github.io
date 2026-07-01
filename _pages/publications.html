@@ -12,9 +12,9 @@ author_profile: true
 {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
 {% for post in sorted_pubs %}
   <p class="pub-entry">
-    <strong>{% if post.paperurl and post.paperurl != '' %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</strong>{% if post.slidesurl and post.slidesurl != '' %} <a href="{{ base_path }}{{ post.slidesurl }}">[Slides]</a>{% endif %}<br>
+    <strong>{% if post.paperurl and post.paperurl != '' %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</strong><br>
     {% if post.authors %}{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}<br>
-    {{ post.venue }}.
+    {{ post.venue }}.{% if post.slidesurl and post.slidesurl != '' %} (<a href="{{ base_path }}{{ post.slidesurl }}">defense_slides</a>){% endif %}
   </p>
 {% endfor %}
 </div>
