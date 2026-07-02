@@ -19,7 +19,7 @@ I'm particularly fascinated by the longitudinal nature of EHRs, and have worked 
 
 {% assign sorted_pubs = site.publications | sort: 'date' | reverse %} {% for post in sorted_pubs %}
 
-**{% if post.paperurl and post.paperurl != '' %}[{{ post.title }}]({{ post.paperurl }}){% else %}{{ post.title }}{% endif %}**{% if post.slidesurl and post.slidesurl != '' %} [[Slides]]({{ base_path }}{{ post.slidesurl }}){% endif %}  
+**{% if post.paperurl and post.paperurl != '' %}[{{ post.title }}]({{ post.paperurl }}){% else %}{{ post.title }}{% endif %}**{% if post.slidesurl and post.slidesurl != '' %} [[Slides]]({{ base_path }}{{ post.slidesurl }}){% endif %}{% if post.videourl and post.videourl != '' %} <a href="{{ post.videourl }}">[Video]</a>{% endif %}  
 {% if post.authors %}{{ post.authors | markdownify | remove: '
 
 ' | remove: '
