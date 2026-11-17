@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Fellow at UT Austin Dell Medicine School advised by [Prof. Fu Sunyang](https://sunyangfu.com/),  I completed my PhD in Electrical & Computer Engineering department at the University of Washington, jointly advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) and [Prof. Meliha Yetisgen](https://faculty.washington.edu/melihay/). 
+I am a Postdoctoral Fellow at UT Austin Dell Medicine School advised by [Prof. Fu Sunyang](https://sunyangfu.com/). I completed my PhD in Electrical & Computer Engineering department at the University of Washington, advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) and [Prof. Meliha Yetisgen](https://faculty.washington.edu/melihay/). 
 I build language model applications for understanding and using clinical texts. My thesis focuses on building **robust** and **trustworthy** tools to **extract clinical information** and on using signals from unstructured EHRs for **disease prediction**. 
 I'm particularly fascinated by the longitudinal nature of EHRs, and have worked on **longitudinal EHR summarization** and using patients' longitudinal history to  future **predict clinical outcomes**.
 
